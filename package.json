@@ -1,5 +1,9 @@
 {
   "dependencies": {
-    "child_process": "^1.0.2"
+    "child_process": "^1.0.2",
+    "commander": "^12.1.0"
+  },
+  "bin": {
+    "autoserver": "./index.js"
   }
 }
