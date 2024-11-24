@@ -12,4 +12,9 @@ program
   .option("-v, --verbose", "displays more info")
   .action(() => {console.log("hello")})
 
+program.option("-c --container", "tells the cli that it is in docker").action(() => {
+  setInterval(() => {
+  }, 1);
+})
+
   program.parse(process.argv);
