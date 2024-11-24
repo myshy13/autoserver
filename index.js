@@ -4,7 +4,7 @@ const program = new Command();
 
 program
   .version('1.0.0')
-  .description('the autoscrip[t  cli tool');
+  .description('the autoscript cli tool');
 
 program
   .command("run <file>")
