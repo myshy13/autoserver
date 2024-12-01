@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 // cli.js
 const { Command } = require('commander');
 const program = new Command();
